@@ -6,5 +6,5 @@ HISTFILESIZE=10000
 shopt -s histappend
 PROMPT_COMMAND="history -a; history -n"
 
-# Custom prompt
-PS1='\[\e[35m\]ashh\[\e[0m\] $ '
+# Custom prompt (cyan)
+PS1='\[\e[36m\]ashh\[\e[0m\] $ '
