@@ -13,3 +13,12 @@ PROMPT='%F{magenta}ashh%f %~ %% '
 [ -f /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Git aliases
+gca() {
+    git status
+    echo
+    read "msg?Commit message: "
+    git add -A
+    git commit -m "$msg"
+}

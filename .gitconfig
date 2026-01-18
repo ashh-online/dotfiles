@@ -1,0 +1,9 @@
+[user]
+    name = Ashley Hauck
+    email = ash@bytespell.com
+
+[pull]
+    rebase = false
+
+[init]
+    defaultBranch = main

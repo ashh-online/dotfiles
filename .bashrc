@@ -8,3 +8,12 @@ PROMPT_COMMAND="history -a; history -n"
 
 # Custom prompt (cyan)
 PS1='\[\e[36m\]ashh\[\e[0m\] \w $ '
+
+# Git aliases
+gca() {
+    git status
+    echo
+    read -p "Commit message: " msg
+    git add -A
+    git commit -m "$msg"
+}
