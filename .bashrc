@@ -10,7 +10,8 @@ PROMPT_COMMAND="history -a; history -n"
 PS1='\[\e[36m\]ashh\[\e[0m\] \w $ '
 
 # Git aliases
-alias gp='git push'
+alias gph='git push'
+alias gpl='git pull'
 alias gs='git status'
 gca() {
     git status

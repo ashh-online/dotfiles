@@ -15,7 +15,8 @@ PROMPT='%F{magenta}ashh%f %~ %% '
 [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Git aliases
-alias gp='git push'
+alias gph='git push'
+alias gpl='git pull'
 alias gs='git status'
 gca() {
     git status
