@@ -1,0 +1,10 @@
+export PATH="$HOME/.local/bin:$PATH"
+
+# History
+HISTSIZE=10000
+HISTFILESIZE=10000
+shopt -s histappend
+PROMPT_COMMAND="history -a; history -n"
+
+# Custom prompt
+PS1='\[\e[35m\]ashh\[\e[0m\] $ '
