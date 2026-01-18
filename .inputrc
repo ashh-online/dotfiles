@@ -1,0 +1,6 @@
+# Up/down arrow searches history based on what you've typed
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Case-insensitive tab completion
+set completion-ignore-case on
